@@ -1,28 +1,22 @@
-yaml
-name: chat_app_new
-description: A new Flutter chat application.
-publish_to: 'none'
+name: chat_flutter_project
+description: A new Flutter project for chat/profile page.
+publish_to: "none"
 
 version: 1.0.0+1
 
 environment:
-  sdk: ">=3.1.0 <4.0.0"
+  sdk: ">=2.17.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.6
-  flutter_chat_ui: ^1.6.6
-  flutter_chat_types: ^3.6.2
-  uuid: ^4.3.1
+  cupertino_icons: ^1.0.2
+  image_picker: ^1.0.7
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.1
+  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
-
-  assets:
-    - assets/
